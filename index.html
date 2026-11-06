@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚗 Smart Parking System</h1>
+        <p class="subtitle">IoT-Based Parking Slot Monitoring</p>
+
+        <div class="summary">
+            <div class="summary-box">
+                <h3>Total Slots</h3>
+                <p id="totalSlots">2</p>
+            </div>
+
+            <div class="summary-box">
+                <h3>Available</h3>
+                <p id="availableSlots">2</p>
+            </div>
+
+            <div class="summary-box">
+                <h3>Occupied</h3>
+                <p id="occupiedSlots">0</p>
+            </div>
+        </div>
+
+        <div class="parking-area">
+
+            <div class="slot">
+                <h2>Parking Slot 1</h2>
+                <div id="slot1Status" class="status available">
+                    AVAILABLE
+                </div>
+            </div>
+
+            <div class="slot">
+                <h2>Parking Slot 2</h2>
+                <div id="slot2Status" class="status available">
+                    AVAILABLE
+                </div>
+            </div>
+
+        </div>
+
+        <div class="info">
+            <p>🟢 Available &nbsp;&nbsp;&nbsp; 🔴 Occupied</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
